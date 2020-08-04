@@ -9,7 +9,7 @@
     <ImageButton
         android:id="@+id/detectButton"
         android:layout_width="0dp"
-        android:layout_height="x0dp"
+        android:layout_height="0dp"
         android:background="@drawable/shape_mainfragment"
         android:text="進入實驗"
 

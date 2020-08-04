@@ -28,14 +28,14 @@ public class MainFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-        final ChoiceFeedBackFragment choiceFeedBackFragment = new ChoiceFeedBackFragment();
+//        final ChoiceFeedBackFragment choiceFeedBackFragment = new ChoiceFeedBackFragment();
         View view = inflater.inflate(R.layout.fragment_main, container, false);
         detectButton = (ImageButton) view.findViewById(R.id.detectButton);
         detectButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.center, choiceFeedBackFragment);
+//                fragmentTransaction.replace(R.id.center, choiceFeedBackFragment);
                 fragmentTransaction.commit();
             }
         });
